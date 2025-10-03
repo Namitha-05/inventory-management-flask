@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Inventory Management</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        h1 { color: #333; }
+        table { width: 50%; border-collapse: collapse; margin-bottom: 30px; }
+        table, th, td { border: 1px solid #888; }
+        th, td { padding: 8px; text-align: left; }
+        th { background-color: #f2f2f2; }
+    </style>
+</head>
+<body>
+    <h1>📦 Inventory Management</h1>
+
+    <h2>Products</h2>
+    <table>
+        <tr><th>ID</th><th>Name</th><th>Quantity</th></tr>
+        {% for product in products %}
+        <tr>
+            <td>{{ product['product_id'] }}</td>
+            <td>{{ product['name'] }}</td>
+            <td>{{ product['quantity'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+
+    <h2>Locations</h2>
+    <table>
+        <tr><th>ID</th><th>Name</th></tr>
+        {% for location in locations %}
+        <tr>
+            <td>{{ location['location_id'] }}</td>
+            <td>{{ location['name'] }}</td>
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
