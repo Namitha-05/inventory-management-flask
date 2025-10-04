@@ -1,9 +1,11 @@
 Inventory Management Web Application (Flask)
 
 This is a very simple inventory management project built using Flask and SQLite.
+
 It shows two tables:
 
 ---Products with their quantities
+
 ---Locations
 
 The focus is on keeping it beginner-friendly and easy to understand:-
@@ -15,8 +17,11 @@ Features:
 
 
 Screenshots:
+
+
 Products Table:
       ![Products Table](screenshots/products.png)
+      
 
 Locations Table:
       ![Locations Table](screenshots/locations.png)
