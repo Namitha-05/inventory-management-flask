@@ -22,7 +22,7 @@ Easy to set up and run
 Screenshots
 
 Products Table:
-screenshots/products.png
+![Products Table](screenshots/products.png)
 
 Locations Table:
-screenshots/locations.png
+![Locations Table](screenshots/locations.png)
