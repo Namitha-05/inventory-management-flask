@@ -1,76 +1,28 @@
-\# Inventory Management Web Application (Flask)
+Inventory Management Web Application (Flask)
 
+This is a very simple inventory management project built using Flask and SQLite.
+It shows two tables:
 
+Products with their quantities
 
-A simple inventory management system built using \*\*Flask\*\* and \*\*SQLite\*\*.  
+Locations
 
-This project displays Products with quantities and Locations in a clean HTML table.
+The focus is on keeping it beginner-friendly and easy to understand.
 
+Features
 
+View products and their quantities
 
----
+View available locations
 
+Simple and clean HTML table display
 
+Easy to set up and run
 
-\## Features
+Screenshots
 
+Products Table:
+screenshots/products.png
 
-
-\- Display Products with Quantity
-
-\- Display Locations
-
-\- Beginner-friendly and easy to understand
-
-\- Clean HTML table display
-
-
-
----
-
-
-
-\## Screenshots
-
-
-
-\*\*Products Table:\*\*  
-
-
-
-!\[Products Screenshot](screenshots/products.png)
-
-
-
-\*\*Locations Table:\*\*  
-
-
-
-!\[Locations Screenshot](screenshots/locations.png)
-
-
-
-> Tip: Take screenshots of your running app and save them in a folder called `screenshots/`.  
-
-> Name the files `products.png` and `locations.png`.
-
-
-
----
-
-
-
-\## How to Run
-
-
-
-1\. \*\*Install Flask\*\* (if not already installed):
-
-
-
-```bash
-
-pip install flask
-
-
-
+Locations Table:
+screenshots/locations.png
